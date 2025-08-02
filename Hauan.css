@@ -81,7 +81,10 @@ table {
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 @media (prefers-color-scheme: dark) {
-    body { color: var(--dark-gray);
+    body { 
+        background-color: var(--dark-gray);
+        color: var(--white);
+}
 }
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 /* ^^^^ see above ^^^^ */
@@ -94,19 +97,19 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
-h1{
+h1 {
     font-size: 2em;
     margin: 0.5em 0;
     display: inline;
 }
 
-h2{
+h2 {
     font-size: 1.75em;
     display: inline;
 }
 
 /* ----- IMAGES ----- */
-img{
+img {
     display: block;
     max-width: 100%;
     margin: 0.5em 0;
